@@ -1,6 +1,73 @@
 body {
-  background-color: cornsilk;
-
+  /*background-color: hotpink;*/
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+[data-reactroot] .title-container {
+	display: flex;
+	padding-left: 15px;
+	/*justify-content: center;*/
+	background-color: black;
+}
+
+[data-reactroot] .title { 
+	font-family: "Futura";
+	color: white;
+	font-weight: bold;
+}
+
+[data-reactroot] .banner-container {
+	display: flex;
+	justify-content: center;
+}
+
+.banner {
+	font-size: 3em;
+}
+
+.song-container {
+	width: 90%;
+	display: flex;
+	flex-direction: right;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.each-song {
+	padding: 10px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.song-info {
+	padding: 10px;
+	list-style-type: none;
+	float: left;
+	vertical-align: center;
+	padding-top: 100px;
+}
+
+.track {
+	list-style-type: none;
+	font-size: 2em;
+}
+
+.artist {
+	color: blue;
+	list-style-type: none;
+}
+
+.img {
+	height: 250px;
+	width: 250px;
+	float: left;
+}
+
+.rank {
+	list-style-type: none;
+	float: left;
+	font-size: 3em;
+}
